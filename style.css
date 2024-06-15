@@ -15,7 +15,7 @@ body {
     font-size: 2.5rem;
 }
 .container {
-  height: 70vh;
+  height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,6 +34,17 @@ body {
   font-size: 8vmin;
   background-color: #212529;
   color: white;
+}
+@media only screen and (max-width: 600px) {
+  .box {
+    height: 22vmin;
+    width: 22vmin;
+    border: 2px solid white; /* White border between boxes */
+    border-radius: 0;
+    font-size: 15vmin;
+    background-color: #212529;
+    color: white;
+  }
 }
 
 .box1 {
